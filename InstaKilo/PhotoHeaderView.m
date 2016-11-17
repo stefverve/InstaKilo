@@ -1,17 +1,19 @@
 //
-//  ViewController.h
+//  PhotoHeaderView.m
 //  InstaKilo
 //
 //  Created by Stefan Verveniotis on 2016-11-16.
 //  Copyright © 2016 Stefan Verveniotis. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "PhotoHeaderView.h"
 
-@interface ViewController : UIViewController 
+@interface PhotoHeaderView ()
 
-- (void) refreshCollectionView;
 
 
 @end
 
+@implementation PhotoHeaderView
+
+@end

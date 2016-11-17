@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CollectionViewCell.h
 //  InstaKilo
 //
 //  Created by Stefan Verveniotis on 2016-11-16.
@@ -8,10 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController 
+@interface CollectionViewCell : UICollectionViewCell
 
-- (void) refreshCollectionView;
-
+- (void)showImage:(UIImage*)image;
 
 @end
-
